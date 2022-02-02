@@ -33,9 +33,9 @@ $("#sendMail").on("click", function() {
     $("#error").text("Email address you entered doesn't exist!");
     return false;
 }
-  else {
-      alert("Your order has been received. We will reach out to you as soon as possible!");
-    }
+  
+   return alert("Your order has been received. We will reach out to you as soon as possible!");
+    
 
     $("#error").text("");
 
